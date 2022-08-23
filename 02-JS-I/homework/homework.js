@@ -60,36 +60,34 @@ function sonIguales(x, y) {
   // Devuelve "true" si "x" e "y" son iguales
   // De lo contrario, devuelve "false"
   // Tu código:
-  let boolean = true;
-  x == y ? boolean = true : boolean = false;
-  return boolean;
+  if(x == y){
+    return true;
+  } 
+  return false;
 }
 
 function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
   // De lo contrario, devuelve "false"
   // Tu código:
-  let boolean = true;
-  str1.length == str2.length ? boolean = true : boolean = false;
-  return boolean;
+  if(str1.length == str2.length)return true;
+  return false;
 }
 
 function menosQueNoventa(num) {
   // Devuelve "true" si el argumento de la función "num" es menor que noventa
   // De lo contrario, devuelve "false"
   // Tu código:
-  let boolean = true;
-  num < 90 ? boolean = true : boolean = false;
-  return boolean;
+  if(num < 90) return true;
+  return false;
 }
 
 function mayorQueCincuenta(num) {
   // Devuelve "true" si el argumento de la función "num" es mayor que cincuenta
   // De lo contrario, devuelve "false"
   // Tu código:
-  let boolean = true;
-  num > 50 ? boolean = true : boolean = false;
-  return  boolean;
+  if (num > 50)return true;
+  return false;
 }
 
 function obtenerResto(x, y) {
@@ -102,18 +100,16 @@ function esPar(num) {
   // Devuelve "true" si "num" es par
   // De lo contrario, devuelve "false"
   // Tu código:
-  let boolean = true;
-  num % 2 == 0 ? boolean = true : boolean = false;
-  return boolean;
+  if(num % 2 == 0) return true;
+  return false;
 }
 
 function esImpar(num) {
   // Devuelve "true" si "num" es impar
   // De lo contrario, devuelve "false"
   // Tu código:
-  let boolean = true;
-  num % 2 != 0 ? boolean = true : boolean = false;
-  return boolean; 
+  if(num % 2 != 0) return true;
+  return false;
 }
 
 function elevarAlCuadrado(num) {
