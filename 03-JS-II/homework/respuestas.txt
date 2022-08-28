@@ -1,0 +1,7 @@
+for = es un bloque de código que usamos en programación, y se utiliza para repetir una acción mientras se cumpla una condición;
+
+&& = este operador se llama AND, es un operador lógico, se utiliza para hacer dos comparaciones y si las dos son verdaderas la expresión se vuelve true.
+
+|| = es el operador OR, también es lógico, se usa cuando queremos comparar dos comparaciones, y la expresión se vuelve true si cualquiera de las comparaciones es true, solo si las dos comparaciones son falsas la expresión también será false.
+
+! = operador NOT, este operador convierte un valor verdadero en falso y viceversa. 
