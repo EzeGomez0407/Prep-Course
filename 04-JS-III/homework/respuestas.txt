@@ -1,0 +1,4 @@
+Arrays = los arrays son como un mueble con cajones, en cada cajón podemos guardar un elemento del tipo que sea. 
+Los arrays son como una variable, a diferencia de una variable que puede guardar solo un elemento, en los arrays podemos guardar infinidades de elementos y no tienen por qué ser todos del mismo tipo de datos, podemos mezclar string con booleanos, con objetos, con otros arrays, etc...
+Ejemplo de un array: 
+['manzana', 59, {nombre: 'Ezequiel}, true, [1,2,3]]
