@@ -1,0 +1,61 @@
+Objetos = son parecidos a los arrays (en realidad los arrays son Objetos, pero con una sintaxis diferente para poder usarlos comodamente como listas), los objetos también sirven para almacenar un conjunto de datos, pero éstos datos siempre estarán relacionados a una sola cosa, serán datos que tendrán propiedades de algo que por lo general hacen referencia a un Objeto del mundo real. Estas propiedades están hechas a partir de claves-valor. A diferencia de los arrays, el contenido de un objeto va encerrado entre llaves{}. Ejemplo de un objeto:
+
+            const nombreObjeto = { }
+
+
+
+Propiedades = las propiedades de los objetos se crean con claves-valor, la clave es el nombre de la propiedad, puede ser un número o una palabra, y el valor es el valor de la propiedad o el dato que queremos guardar en ella, puede ser cualquier tipo de dato, hasta un array u otro objeto (que a esto le llamaríamos objeto anidado). Cómo darle una propiedad a un objeto:
+
+            const persona = {
+                nombre: "Raul",
+                edad: 63,
+                trabaja: true,
+            }
+
+
+
+Métodos = son comportamientos que les podemos dar a un objeto, se los crea igual que a las propiedades y su sintaxis es igual que una simple función.
+
+            const persona = {
+                nombre: "Raul",
+                edad: 63,         <----//propiedades
+                trabaja: true,
+
+                saludar: function(){  <---//método
+                    return "Hola. Cómo estás?"
+                }
+            }
+
+
+
+Bucle for…in = es como un for que usamos para recorrer un array pero su sintaxis cambia porque los objetos no estan ordenados con números como pasa con los arrays, para eso tenemos el for…in. Su sintaxis es muy simple de usar, entre parentesis debemos crear una variable (la cual va ir cambiando su valor con las keywords de las propiedades del objeto a iterar), separada la palabra reservada "in" y despues el objeto que se quiere recorrer, ejemplo:
+
+        for(let clave in persona){
+
+            console.log(clave + " " + persona[clave]);
+
+        }
+
+        //nombre Raul
+        //edad 63
+        //trabaja true
+        //saludar function saludar() {
+            return "Hola. Cómo estás?";
+        }
+
+
+
+Notación de puntos y de corchetes = para obtener el valor de las propiedades de un objeto tenemos dos formas de hacerlo:
+
+Notación de punto: persona.nombre         //Raul
+Notación de corchete: persona["nombre"]   //Raul
+
+También podemos depositar estos valores en una variable:
+
+let name = persona.nombre; //Esta variable tendrá el valor de Raul
+let age = persona["edad"]; // y esta el valor de 63
+
+En la notación de corchetes podemos usar variables que coincidan con el keyword de la propiedad: 
+
+let name = "nombre";
+console.log(persona[name]); // Raul
