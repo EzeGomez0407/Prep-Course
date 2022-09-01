@@ -1,0 +1,12 @@
+prototype = podemos ver el objeto prototype como una herramienta que nos sirve mucho cuando queremos que un objeto herede propiedades y métodos de otro. En el prototype se guardan todas las propiedades y métodos de un objeto y así mismo ese objeto protype puede tener otro objeto prototype con propiedades y métodos definidos en otro objeto totalmente diferente.
+
+Constructor = el constructor es una función o método de una clase que crea un objeto, y le otorga los atributos que nosotros definimos en la clase. Al instanciar la clase no necesitamos usar el keyword "constructor", solo el "new", el nombre de la clase y en los parentesis despues del nombre introducimos los parámetros que necesita el constrcutor para dar los atributos al objeto. Ejemplo:
+
+        class Auto{
+            constructor(color, marca){
+                this.color = color;
+                this.marca = marca;
+            }
+        }
+
+        const escort = new Auto('rojo','Ford');
