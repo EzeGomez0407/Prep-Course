@@ -1,0 +1,1 @@
+Funciones callback = las funciones callback son las funciones que se pasan como argumentos a otras funciones. Por ejemplo, el método forEach o un map, un reduce, etc...son métodos que necesitan que le demos una función como argumento para su funcionamiento.
