@@ -1,0 +1,24 @@
+h1{
+    text-align: center;
+    color: #34b;
+}
+img{
+    width: 400px;
+}
+#thirdDiv{
+    text-align: center;
+    width: 500px;
+    height: 600px;
+    background-color: #3c8a;
+    padding: 50px;
+    border: 2px #422 solid;
+    border-radius: 5px;
+}
+#spanId{
+    font-size: 18px;
+    margin: 50px;
+}
+ul{
+    list-style: none;
+    padding: 0;
+}
