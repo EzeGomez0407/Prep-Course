@@ -1,0 +1,108 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    background: linear-gradient(0deg,#21618C,#1B2631);
+}
+div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    text-align: center;
+}
+#div-Principal{
+    width: 100%;
+    height: 40%;
+    color: #A3E4D7;
+    border-bottom: 1px #ccc700 solid;
+}
+#titulo {
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.5em;
+    margin: 0;
+}
+#short-description{
+    font-size: 12px;
+    margin: 0;
+    border-bottom: 1px #A3E4D7 solid;
+}
+
+
+#div-educ_expLaboral{   
+    flex-direction: row;
+    width: 100%;
+    padding: 50px 0;
+    border-bottom: 1px #ccc700 solid;
+}
+.divs-expLabAndEduc{
+    width: 40%;
+    height: 290px;
+    margin: 30px;
+    padding: 10px;
+    color: #fff;
+    border: 1.4px #fff solid;
+    border-radius: 20px;
+    box-shadow: -3px 5px 18px 3px #777;
+}
+#div-educ_expLaboral h2{
+ color: #E8DAEF;
+}
+
+
+#div-skill_imgPerfil{
+    flex-direction: row;
+    width: 100%;
+    color: #fff;
+    border-bottom: 1px #ccc700 solid;
+}
+#div-skill_imgPerfil h2{
+    color: #E8DAEF;
+}
+.elem-divSkill-img{
+    width: 40%;
+    height: 400px;
+    padding: 0 ;
+}
+#imgPerfil{
+    object-fit: cover;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+
+#divHobbies{
+    flex-direction: row;
+    height: 30%;
+    padding: 40px 20px;
+    border-bottom: 1px #ccc700 solid;
+}
+#divHobbies h2{
+    display: flex;
+    align-items: center;
+    height: 60%;
+    padding: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    color: #1B2631;
+    background-color: #E74C3C;
+}
+#divHobbies p{
+    display: flex;
+    align-items: center;
+    height: 60%;
+    text-align: left;
+    padding: 10px;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+    background-color: #fff;
+}
+
+
+#Div-motivEstudio{
+    padding: 50px;
+    font-size: 18px;
+    color: #fff;
+}
